@@ -1,6 +1,8 @@
-# Standards for Interoperable Decentralised Data Exchange
+# Decentralised Data Exchange: Interoperability Standards Catalogue
 
-Organised by the four interoperability layers
+*This catalogue is under active development as part of an ongoing PhD literature survey.*
+This catalogue lists the standards being surveyed,
+with their standards body and process status, across the four interoperability layers
 (Technical, Semantic, Legal, Organisational) of the European
 Interoperability Framework. "RF" = royalty-free. "RDF-native" indicates
 whether the standard plugs directly into the Semantic Web stack or
@@ -70,5 +72,3 @@ requires bridging.
 |---|---|---|---|---|---|---|
 | HL7 FHIR | R5 | HL7 | HL7 Standard | Open spec | RDF serialisation exists | Clinical data exchange |
 | SNOMED CT | -- | SNOMED Intl. | Intl. Standard | Licensed | Mappable | Clinical terminology |
-
-*This catalogue is under active development as part of an ongoing PhD literature survey*
