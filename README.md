@@ -51,10 +51,6 @@ requires bridging.
 | [Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-1.1/) | 1.0 / 1.1 CR | W3C | Rec (2022); 1.1 Candidate Rec | Yes | Yes | Self-controlled identifiers |
 | [WebID]( https://www.w3.org/TR/did-1.1/) | — | W3C Solid CG | CG Report | Yes | Yes | HTTP-URI agent identity |
 | [Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model-2.0/) | 2.0 | W3C | Rec (May 2025) | Yes | Yes | Verifiable claims |
-<!-- | [VC Data Integrity (+cryptosuites)](https://www.w3.org/TR/vc-data-integrity/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | Signing/verifying linked data | -->
-<!-- | [Controlled Identifiers](https://www.w3.org/TR/controlled-identifiers/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | Identifier control for VCs | -->
-<!-- | [Bitstring Status List](https://www.w3.org/TR/vc-bitstring-status-list/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | VC revocation/status | -->
-<!-- | [RDF Dataset Canonicalization](https://www.w3.org/TR/rdf-canon/ ) (RDFC-1.0) | 1.0 | W3C | Rec (2024) | Yes | Yes | Canonical form for signing RDF | -->
 | [PROV-O](https://www.w3.org/TR/prov-o/) | 1.0 | W3C | Rec (2013) | Yes | Yes | Provenance |
 | [OAuth 2.0](https://www.rfc-editor.org/rfc/rfc6749) | RFC 6749 | IETF | RFC | Yes | No | Delegated authorisation |
 | [OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html) | Core 1.0 | OpenID Foundation | Final | Yes | No | Identity layer over OAuth |
@@ -62,6 +58,10 @@ requires bridging.
 | [JSON Web Token (JWT)](https://www.rfc-editor.org/info/rfc7519/ ) | RFC 7515–7519 | IETF | RFC | Yes | No | Token signing/encryption |
 | [IEEE 7012](https://standards.ieee.org/ieee/7012/7192/ ) | 2025 | IEEE | IEEE Standard | Licensed | Partial | Machine-readable privacy terms |
 | [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/) | 2025-1 | Eclipse / IDSA | Eclipse Spec (ISO-track) | Yes | Yes (DCAT+ODRL) | Connector negotiation/transfer |
+<!-- | [VC Data Integrity (+cryptosuites)](https://www.w3.org/TR/vc-data-integrity/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | Signing/verifying linked data | -->
+<!-- | [Controlled Identifiers](https://www.w3.org/TR/controlled-identifiers/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | Identifier control for VCs | -->
+<!-- | [Bitstring Status List](https://www.w3.org/TR/vc-bitstring-status-list/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | VC revocation/status | -->
+<!-- | [RDF Dataset Canonicalization](https://www.w3.org/TR/rdf-canon/ ) (RDFC-1.0) | 1.0 | W3C | Rec (2024) | Yes | Yes | Canonical form for signing RDF | -->
 
 ## Domain-specific (health; via the EHDS scenario)
 
