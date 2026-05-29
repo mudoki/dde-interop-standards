@@ -3,7 +3,7 @@
 *Under active development as part of an ongoing PhD literature survey.*
 
 This catalogue lists the standards being surveyed,
-with their standards body and process status, organised by four 
+with their standards body and process status, across four 
 interoperability layers (Technical, Semantic, Legal, Organisational) 
 defined in the [European Interoperability Framework](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2017:134:FIN). 
 "RF" = royalty-free. "RDF-native" indicates
