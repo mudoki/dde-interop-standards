@@ -70,4 +70,4 @@ requires bridging.
 | HL7 FHIR | R5 | HL7 | HL7 Standard | Open spec | RDF serialisation exists | Clinical data exchange |
 | SNOMED CT | — | SNOMED Intl. | Intl. Standard | Licensed | Mappable | Clinical terminology |
 
-*Please note that this is maintained as an evolving catalogue. Last verified: May 2026.*
+*This is maintained as an evolving catalogue.*
