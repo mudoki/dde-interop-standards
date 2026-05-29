@@ -1,6 +1,8 @@
 # Decentralised Data Exchange: Interoperability Standards Catalogue
 
 *This catalogue is under active development as part of an ongoing PhD literature survey.*
+
+
 This catalogue lists the standards being surveyed,
 with their standards body and process status, across the four interoperability layers
 (Technical, Semantic, Legal, Organisational) of the European
