@@ -1,6 +1,6 @@
 # Standards for Interoperable Decentralised Data Exchange
 
-Statuses verified May 2026. Organised by the four interoperability layers
+Organised by the four interoperability layers
 (Technical, Semantic, Legal, Organisational) of the European
 Interoperability Framework. "RF" = royalty-free. "RDF-native" indicates
 whether the standard plugs directly into the Semantic Web stack or
