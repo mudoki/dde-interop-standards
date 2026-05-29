@@ -1,14 +1,30 @@
 # Decentralised Data Exchange: Interoperability Standards Catalogue
 
-*This catalogue is under active development as part of an ongoing PhD literature survey.*
-
+*Under active development as part of an ongoing PhD literature survey.*
 
 This catalogue lists the standards being surveyed,
-with their standards body and process status, across the four interoperability layers
+with their standards body and process status, organised by four 
+interoperability layers (Technical, Semantic, Legal, Organisational) 
+defined in the [European Interoperability Framework](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2017:134:FIN). 
+across the four interoperability layers
 (Technical, Semantic, Legal, Organisational) of the European
 Interoperability Framework. "RF" = royalty-free. "RDF-native" indicates
 whether the standard plugs directly into the Semantic Web stack or
 requires bridging.
+
+**Legend**
+
+**Open/RF** - licensing of the standard itself:
+- `Yes` - openly published and royalty-free under the issuing body's patent policy
+- `Open` - openly published; no blanket royalty-free patent grant
+- `Licensed` - requires a licence to implement or use
+
+**RDF-native** - how the standard relates to the Semantic Web stack:
+- `Yes` - plugs in directly (RDF-based)
+- `No` - not RDF-based
+- `Partial` - connects through a documented bridge (e.g. `DCAT+ODRL`, DPV extension)
+- `n/a` - sits below the data layer, does not apply
+
 
 ## Layer 1 - Technical
 
@@ -57,12 +73,12 @@ requires bridging.
 | [WebID]( https://www.w3.org/TR/did-1.1/) | -- | W3C Solid CG | CG Report | Yes | Yes | HTTP-URI agent identity |
 | [Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model-2.0/) | 2.0 | W3C | Rec (May 2025) | Yes | Yes | Verifiable claims |
 | [PROV-O](https://www.w3.org/TR/prov-o/) | 1.0 | W3C | Rec (2013) | Yes | Yes | Provenance |
-| [OAuth 2.0](https://www.rfc-editor.org/rfc/rfc6749) | RFC 6749 | IETF | RFC | Yes | No | Delegated authorisation |
-| [OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html) | Core 1.0 | OpenID Foundation | Final | Yes | No | Identity layer over OAuth |
-| [UMA 2.0](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) | 2.0 | Kantara | Kantara Rec | Yes | No | Party-to-party data-sharing authorisation |
+| [OAuth 2.0](https://www.rfc-editor.org/rfc/rfc6749) | RFC 6749 | IETF | RFC | Open | No | Delegated authorisation |
+| [OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html) | Core 1.0 | OpenID Foundation | Final | Open | No | Identity layer over OAuth |
+| [UMA 2.0](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) | 2.0 | Kantara | Kantara Rec | Open | No | Party-to-party data-sharing authorisation |
 | [JSON Web Token (JWT)](https://www.rfc-editor.org/info/rfc7519/ ) | RFC 7515–7519 | IETF | RFC | Yes | No | Token signing/encryption |
 | [IEEE 7012](https://standards.ieee.org/ieee/7012/7192/ ) | 2025 | IEEE | IEEE Standard | Licensed | Partial | Machine-readable privacy terms |
-| [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/) | 2025-1 | Eclipse / IDSA | Eclipse Spec (ISO-track) | Yes | Yes (DCAT+ODRL) | Connector negotiation/transfer |
+| [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/) | 2025-1 | Eclipse / IDSA | Eclipse Spec | Yes | Yes (DCAT+ODRL) | Connector negotiation/transfer |
 <!-- | [VC Data Integrity (+cryptosuites)](https://www.w3.org/TR/vc-data-integrity/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | Signing/verifying linked data | -->
 <!-- | [Controlled Identifiers](https://www.w3.org/TR/controlled-identifiers/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | Identifier control for VCs | -->
 <!-- | [Bitstring Status List](https://www.w3.org/TR/vc-bitstring-status-list/) | 1.0 | W3C | Rec (May 2025) | Yes | Yes | VC revocation/status | -->
