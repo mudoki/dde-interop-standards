@@ -35,7 +35,7 @@ requires bridging.
 | [DCAT-AP](https://semiceu.github.io/DCAT-AP/releases/3.0.0/) | 3.0 | EU SEMIC | EU profile | Yes | Yes | EU profile of DCAT |
 | [Dublin Core Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) | 1.1 | DCMI | DCMI Standard | Yes | Yes | Descriptive metadata |
 
-## Layer 3 -- Legal
+## Layer 3 - Legal
 
 | Standard | Version | Body | Status (2026) | Open/RF | RDF-native | Role |
 |---|---|---|---|---|---|---|
@@ -44,7 +44,7 @@ requires bridging.
 | [OAC (ODRL profile for Access Control)](https://w3id.org/oac) | -- | research/CG | CG-level | Yes | Yes | Access-control policies (Solid) |
 | [XACML](https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-en.html) | 3.0 | OASIS | OASIS Standard | Yes | No (XML) | Attribute-based access control |
 
-## Layer 4 -- Organisational
+## Layer 4 - Organisational
 
 | Standard | Version | Body | Status (2026) | Open/RF | RDF-native | Role |
 |---|---|---|---|---|---|---|
