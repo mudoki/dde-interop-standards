@@ -17,6 +17,7 @@ requires bridging.
 | [Linked Data Notifications](https://www.w3.org/TR/ldn/) | 1.0 | W3C | Rec (2017) | Yes | Yes | RDF notifications |
 | [Activity Streams](https://www.w3.org/TR/activitystreams-core/) | 2.0 | W3C | Rec (2017) | Yes | Yes | Activity/event vocabulary |
 | [SPARQL Protocol](https://www.w3.org/TR/sparql12-protocol/) | 1.1 / 1.2 CR | W3C | Rec; 1.2 Candidate Rec | Yes | Yes | Query transport |
+| [Linked Web Storage WG](https://www.w3.org/groups/wg/lws/) | -- | W3C | WG (active) | Yes | Yes | Server-side storage Recs (in progress) |
 
 ## Layer 2 - Semantic
 
@@ -30,7 +31,7 @@ requires bridging.
 | [SHACL](https://www.w3.org/TR/shacl/ ) | 1.0 / 1.2 WD | W3C | Rec (2017); 1.2 in progress | Yes | Yes | Shape validation | |
 | [JSON-LD](https://www.w3.org/TR/json-ld11/) | 1.1 | W3C | Rec (2020) | Yes | Yes | JSON for linked data |
 | [R2RML](https://www.w3.org/TR/r2rml/) | 1.0 | W3C | Rec (2012) | Yes | Yes | Relational-to-RDF mapping |
-| [RML](https://w3id.org/rml/) | — | W3C KGC CG | CG work | Yes | Yes | Heterogeneous-source mapping |
+| [RML](https://w3id.org/rml/) | -- | W3C KGC CG | CG work | Yes | Yes | Heterogeneous-source mapping |
 | [DCAT](https://www.w3.org/TR/vocab-dcat-3/) | 3 | W3C | Rec (2024) | Yes | Yes | Dataset description/discovery |
 | [DCAT-AP](https://semiceu.github.io/DCAT-AP/releases/3.0.0/) | 3.0 | EU SEMIC | EU profile | Yes | Yes | EU profile of DCAT |
 | [Dublin Core Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) | 1.1 | DCMI | DCMI Standard | Yes | Yes | Descriptive metadata |
@@ -49,7 +50,7 @@ requires bridging.
 | Standard | Version | Body | Status (2026) | Open/RF | RDF-native | Role |
 |---|---|---|---|---|---|---|
 | [Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-1.1/) | 1.0 / 1.1 CR | W3C | Rec (2022); 1.1 Candidate Rec | Yes | Yes | Self-controlled identifiers |
-| [WebID]( https://www.w3.org/TR/did-1.1/) | — | W3C Solid CG | CG Report | Yes | Yes | HTTP-URI agent identity |
+| [WebID]( https://www.w3.org/TR/did-1.1/) | -- | W3C Solid CG | CG Report | Yes | Yes | HTTP-URI agent identity |
 | [Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model-2.0/) | 2.0 | W3C | Rec (May 2025) | Yes | Yes | Verifiable claims |
 | [PROV-O](https://www.w3.org/TR/prov-o/) | 1.0 | W3C | Rec (2013) | Yes | Yes | Provenance |
 | [OAuth 2.0](https://www.rfc-editor.org/rfc/rfc6749) | RFC 6749 | IETF | RFC | Yes | No | Delegated authorisation |
@@ -68,6 +69,6 @@ requires bridging.
 | Standard | Version | Body | Status (2026) | Open/RF | RDF-native | Role |
 |---|---|---|---|---|---|---|
 | HL7 FHIR | R5 | HL7 | HL7 Standard | Open spec | RDF serialisation exists | Clinical data exchange |
-| SNOMED CT | — | SNOMED Intl. | Intl. Standard | Licensed | Mappable | Clinical terminology |
+| SNOMED CT | -- | SNOMED Intl. | Intl. Standard | Licensed | Mappable | Clinical terminology |
 
 *This is maintained as an evolving catalogue.*
