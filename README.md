@@ -6,9 +6,7 @@ This catalogue lists the standards being surveyed,
 with their standards body and process status, organised by four 
 interoperability layers (Technical, Semantic, Legal, Organisational) 
 defined in the [European Interoperability Framework](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2017:134:FIN). 
-across the four interoperability layers
-(Technical, Semantic, Legal, Organisational) of the European
-Interoperability Framework. "RF" = royalty-free. "RDF-native" indicates
+"RF" = royalty-free. "RDF-native" indicates
 whether the standard plugs directly into the Semantic Web stack or
 requires bridging.
 
